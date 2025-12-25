@@ -2,4 +2,7 @@
 
 .vs/
 bin/
-bon-intermediate/
+bin-intermediate/
+
+# Files
+*.user
