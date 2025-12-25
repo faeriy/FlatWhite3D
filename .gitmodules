@@ -1,0 +1,3 @@
+[submodule "FlatWhite3D/vendor/spdlog"]
+	path = FlatWhite3D/vendor/spdlog
+	url = https://github.com/gabime/spdlog

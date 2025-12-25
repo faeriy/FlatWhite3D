@@ -58,6 +58,8 @@
       <PreprocessorDefinitions>FW_PLATFORM_WINDOWS;FW_BUILD_DLL;</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>$(SolutionDir)FlatWhite3D\vendor\spdlog\include;</AdditionalIncludeDirectories>
+      <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -73,6 +75,8 @@
       <PreprocessorDefinitions>FW_PLATFORM_WINDOWS;FW_BUILD_DLL;</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>$(SolutionDir)FlatWhite3D\vendor\spdlog\include;</AdditionalIncludeDirectories>
+      <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -80,12 +84,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="src\FlatWhite3D\Log.h" />
     <ClInclude Include="src\FlatWhite.h" />
     <ClInclude Include="src\FlatWhite3D\Application.h" />
     <ClInclude Include="src\FlatWhite3D\Core.h" />
     <ClInclude Include="src\FlatWhite3D\EntryPoint.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\FlatWhite3D\Log.cpp" />
     <ClCompile Include="src\FlatWhite3D\Application.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

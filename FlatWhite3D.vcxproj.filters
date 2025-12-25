@@ -5,8 +5,10 @@
     <ClInclude Include="src\FlatWhite3D\Application.h" />
     <ClInclude Include="src\FlatWhite.h" />
     <ClInclude Include="src\FlatWhite3D\EntryPoint.h" />
+    <ClInclude Include="src\FlatWhite3D\Log.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\FlatWhite3D\Application.cpp" />
+    <ClCompile Include="src\FlatWhite3D\Log.cpp" />
   </ItemGroup>
 </Project>
